@@ -1,0 +1,1 @@
+to jest projekt na zaliczenie przedmiotu
