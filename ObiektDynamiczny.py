@@ -1,15 +1,14 @@
+from models.obiekt import obiekt
+
 class ObiektDynamiczny:
 
     ObiektDynamicznylist = []
 
-    def __init__(self, szybkosc, zasieglapek, wzrok, plodnosc, raniony, przestraszenie, jedzenie, przenoszenie, id, dead):
+    def __init__(self, szybkosc, zasieglapek, wzrok, raniony, przestraszenie):
+        
         self.id = len(self.ObiektDynamicznylist)
         self.szybkosc = szybkosc
         self.zasieglapek = zasieglapek
         self.wzrok = wzrok
-        self.plodnosc = plodnosc
         self.raniony = raniony
         self.przestaszenie = przestraszenie
-        self.jedzenie = jedzenie
-        self.przenoszenie = przenoszenie
-        self.dead
